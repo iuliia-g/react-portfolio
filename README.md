@@ -4,7 +4,7 @@ Personal portfolio website developed using React, JavaScript and CSS.
 
 ## Live Demo
 
-https://iuliia-g.github.io/react-portfolio/
+http://iuliia-g.com/react-portfolio/
 
 ## Features
 
