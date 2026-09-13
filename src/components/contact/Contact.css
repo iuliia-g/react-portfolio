@@ -1,0 +1,131 @@
+.c{
+    min-height: 100vh;
+    position: relative;
+}
+.c-bg{
+    width: 20px;
+    height: 100%;
+    background-color: #5AB257;
+    position: absolute;
+}
+
+.c-wrapper{
+    padding: 50px;
+    display: flex;
+}
+
+.c-left{
+    flex:1;
+}
+
+.c-right{
+    flex:1;
+    flex-direction: column;
+}
+
+.c-title {
+    font-size: 60px;
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+.c-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.c-info-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 1.1rem;
+}
+
+.c-icon {
+    color: #5AB257;
+    font-size: 24px;
+}
+
+.c-info-item a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.c-info-item a:hover {
+    color: #5AB257;
+}
+
+form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input,
+textarea {
+    padding: 12px;
+    border: none;
+    border-bottom: 1px solid black;
+    font-family: inherit;
+    margin: 10px 0px;
+    font-size: 14px;
+}
+
+button {
+    width: 150px;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background: #5AB257;
+    color: white;
+    cursor: pointer;
+    font-size: medium;
+    font-weight: 600;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+@media screen and (max-width: 480px) {
+
+    .c {
+        min-height: 100vh;
+        height: auto;
+    }
+
+    .c-bg {
+        display: none;
+    }
+
+    .c-wrapper {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .c-left {
+        margin-bottom: 40px;
+    }
+
+    .c-title {
+        width: 100%;
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .c-info-item {
+        font-size: 16px;
+    }
+
+    input,
+    textarea {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    button {
+        width: 100%;
+    }
+}
